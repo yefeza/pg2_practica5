@@ -87,10 +87,10 @@
             ]
 
         def get_precio_total(self, obj):
-            # Ver en `pedidos_cafe/factory.py`
+            # Ver en `pedidos_cafe/serializers.py`
 
         def get_ingredientes_finales(self, obj):
-            # Ver en `pedidos_cafe/factory.py`
+            # Ver en `pedidos_cafe/serializers.py`
    ```
 
 6. Crear las vistas en `pedidos_cafe/views.py`.

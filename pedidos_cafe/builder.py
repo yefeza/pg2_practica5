@@ -38,3 +38,18 @@ class CafeDirector:
         for i in ingredientes:
             self.builder.agregar_ingrediente(i)
         self.builder.ajustar_tamanio(tamaño)
+
+    def construir_paquete_1(self):
+        self.builder.agregar_ingrediente("canela")
+        self.builder.agregar_ingrediente("chocolate")
+        self.builder.ajustar_tamanio("mediano")
+
+    def construir_paquete_2(self):
+        self.builder.agregar_ingrediente("vainilla")
+        self.builder.agregar_ingrediente("azucar")
+        self.builder.ajustar_tamanio("grande")
+
+    def construir_paquete_3(self):
+        self.builder.agregar_ingrediente("leche extra")
+        self.builder.agregar_ingrediente("canela")
+        self.builder.ajustar_tamanio("pequeño")
